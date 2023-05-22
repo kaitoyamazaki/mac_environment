@@ -8,7 +8,7 @@ M1 Macの環境構築の備忘録
 
 - Homebrew
 
-- c++
+- [c++](https://github.com/kaitoyamazaki/mac_environment/tree/master/c%2B%2B)
 
 - matplotlib-cpp
 
