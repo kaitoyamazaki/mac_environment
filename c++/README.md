@@ -28,4 +28,15 @@ clangではなくgccにしたいため、以下のコマンドを実行.</br>
 ln -s /opt/homebrew/bin/g++-13 /usr/local/bin/g++
 ```
 
-シンボリックリンクを作成する場所はどこでも(どこでもは良くないが)良い気がする(最悪PATHの設定をどうにかすればいいので...)
+シンボリックリンクを作成する場所はどこでも(どこでもは良くないが)良い気がする(最悪PATHの設定をどうにかすればいいので...).</br>
+コマンド実行後, `which g++`を実行し, 変化があるときgcc系を呼び出すことに成功.できていない場合, `echo $PATH`を実行し, PATHの設定を見ることを推奨.</br>
+
+## インストールすることの利点
+
+gcc系にはclang系にはない`#include <bits/stdc++.h>`という標準ライブラリを纏めたものを使用することができる.</br>
+
+### 参考文献
+
+- [Visual studio codeで競プロ環境構築[mac OS]](https://qiita.com/EngTks/items/ffa2a7b4d264e7a052c6)</br>
+- [MacでGCCを"正しく"環境構築しよう！](https://qiita.com/DaikiSuyama/items/09f5aa399aad37783146#fn4)</br>
+- [M1 Macでの競プロ用のC++環境構築ガイド](https://persimmonblog.com/guide-for-setting-up-environment-for-m1mac/)
